@@ -6,9 +6,9 @@ export default class ThemeToggle extends Component {
     render() {
         const {changeTheme} = this.context;
         return (
-            <buttton onClick={changeTheme}>
+            <button  onClick={changeTheme}>
                 Toggle the theme
-            </buttton>
+            </button>
         )
     }
 }
